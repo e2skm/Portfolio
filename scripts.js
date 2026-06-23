@@ -100,7 +100,7 @@ sections.forEach(section => {
     const items = section.querySelectorAll('.project, .experience, .tech-category, .certificate');
     items.forEach(item => {
         item.style.opacity = '0';
-        item.style.transform = 'translateY(20px)';
+        item.style.transform = 'translateY(10px)';
         item.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     });
     

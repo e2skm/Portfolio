@@ -18,7 +18,7 @@ function setActiveSection() {
     const documentHeight = document.documentElement.scrollHeight;
     
     // Check if we're at the bottom of the page (contact section)
-    if (pageBottom >= documentHeight - 40) { // 10px tolerance
+    if (pageBottom >= documentHeight - 50) { // 10px tolerance
         currentSection = 'contact';
     } else {
         // Regular section detection for other sections
